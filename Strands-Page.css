@@ -1,0 +1,456 @@
+.home {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-16xl) 0 0;
+  }
+  .about,
+  .strands {
+    position: relative;
+    display: inline-block;
+    min-width: 37px;
+  }
+  .strands {
+    min-width: 47px;
+  }
+  .strands-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 34px 0 var(--padding-16xl);
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-group,
+  .white-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .white-line {
+    align-self: stretch;
+    height: 20px;
+    align-items: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    width: 116px;
+    align-items: flex-end;
+  }
+  .contact-us {
+    position: relative;
+    display: inline-block;
+    min-width: 66px;
+    white-space: nowrap;
+  }
+  .frame-parent {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1px 0 0;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-cornsilk);
+    font-family: var(--font-inter);
+  }
+  .feedback-icon-inner {
+    width: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .ollcf {
+    position: relative;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+  }
+  .feedback-icon {
+    align-self: stretch;
+    background-color: var(--color-tan-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-12xl) 42px 0 var(--padding-12xl);
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-cornsilk);
+    font-family: var(--font-inter);
+  }
+  .director-photo-placeholder {
+    position: absolute;
+    top: 0;
+    left: 740px;
+    background-color: var(--color-tan-100);
+    width: 773px;
+    height: 502px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 502px;
+    left: -33px;
+    width: 773px;
+    height: 464px;
+  }
+  .director-designation,
+  .director-info,
+  .director-profile,
+  .director-profile-link,
+  .frame-div,
+  .frame-inner,
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 735px;
+    background-color: var(--color-cornsilk);
+    width: 732px;
+    height: 73px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .director-designation,
+  .director-info,
+  .director-profile,
+  .director-profile-link,
+  .frame-div,
+  .frame-inner {
+    top: 152px;
+    left: 737px;
+  }
+  .director-info,
+  .director-profile,
+  .director-profile-link,
+  .frame-div,
+  .frame-inner {
+    top: 304px;
+    left: 735px;
+  }
+  .director-profile,
+  .director-profile-link,
+  .frame-div,
+  .frame-inner {
+    top: 878px;
+    left: -54px;
+    width: 794px;
+  }
+  .director-profile,
+  .frame-div,
+  .frame-inner {
+    top: 571px;
+    left: -59px;
+    width: 799px;
+  }
+  .director-profile,
+  .frame-div {
+    top: 724px;
+    left: -54px;
+    width: 794px;
+  }
+  .director-profile {
+    top: 456px;
+    left: 740px;
+    width: 732px;
+  }
+  .director-photo-placeholder-parent {
+    width: 100%;
+    height: 951px;
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .senior-strand-offering {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 900;
+    font-family: inherit;
+    max-width: 100%;
+  }
+  .academic-track {
+    position: relative;
+    font-weight: 800;
+  }
+  .academic-track-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3px;
+  }
+  .accountancy-business-and {
+    margin: 0;
+  }
+  .accountancy-business-and-container,
+  .humanities-and-social {
+    width: 452px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .humanities-and-social {
+    height: 54px;
+  }
+  .science-technology-engineerin {
+    align-self: stretch;
+    position: relative;
+  }
+  .general-academic-strand {
+    width: 452px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-container,
+  .strand-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .strand-list {
+    align-self: stretch;
+    gap: 11.4px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-tan-100);
+  }
+  .frame-container {
+    flex: 1;
+    gap: 22.6px;
+  }
+  .schemes-heading-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 11px;
+    box-sizing: border-box;
+    font-size: var(--font-size-13xl);
+  }
+  .schemes-heading,
+  .schemes-heading-inner,
+  .schemes-heading-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .schemes-heading {
+    width: 671px;
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: 34.5px;
+  }
+  .schemes-heading-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .technical-vocational-livelihoo {
+    width: 416px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .home-economics-he {
+    margin: 0;
+  }
+  .home-economics-he-container,
+  .information-and-communication {
+    width: 452px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .information-and-communication {
+    width: 560px;
+    z-index: 1;
+  }
+  .caregiving {
+    align-self: stretch;
+    position: relative;
+  }
+  .information-and-communication-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11.5px;
+    max-width: 100%;
+  }
+  .home-economics-he-parent {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 30.6px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-tan-100);
+  }
+  .home-economics-he-parent,
+  .schemes-title-container,
+  .technical-vocational-livelihoo-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .technical-vocational-livelihoo-parent {
+    width: 660px;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 21.1px;
+    font-size: var(--font-size-13xl);
+  }
+  .schemes-title-container {
+    flex: 1;
+    align-items: flex-end;
+    gap: 79px;
+  }
+  .schemes-title-container-wrapper {
+    width: 1410px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 15px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .strands-page {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-cornsilk);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 194px;
+    box-sizing: border-box;
+    gap: 47px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 40px;
+    color: var(--color-tan-200);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 750px) {
+    .feedback-icon {
+      padding-right: 21px;
+      box-sizing: border-box;
+    }
+    .senior-strand-offering {
+      font-size: var(--font-size-13xl);
+    }
+    .academic-track {
+      font-size: var(--font-size-7xl);
+    }
+    .schemes-heading {
+      gap: 17px;
+    }
+    .technical-vocational-livelihoo {
+      font-size: var(--font-size-7xl);
+    }
+    .strands-page {
+      gap: 23px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .frame-parent {
+      display: none;
+    }
+    .feedback-icon-inner {
+      width: 0;
+    }
+    .home-economics-he-parent {
+      gap: 15px;
+    }
+    .schemes-title-container {
+      gap: 39px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .senior-strand-offering {
+      font-size: var(--font-size-5xl);
+    }
+    .academic-track,
+    .accountancy-business-and-container,
+    .caregiving,
+    .general-academic-strand,
+    .home-economics-he-container,
+    .humanities-and-social,
+    .information-and-communication,
+    .science-technology-engineerin,
+    .technical-vocational-livelihoo {
+      font-size: var(--font-size-lgi);
+    }
+    .schemes-title-container {
+      gap: var(--gap-xl);
+    }
+  }
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-5xl: 24px;
+    --font-size-lgi: 19px;
+    --font-size-13xl: 32px;
+    --font-size-7xl: 26px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-cornsilk: #fff7dc;
+    --color-tan-100: #c1b17b;
+    --color-tan-200: #a49668;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-12xl: 31px;
+    --padding-16xl: 35px;
+  }

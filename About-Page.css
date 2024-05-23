@@ -1,0 +1,253 @@
+.about-senior-high {
+    margin: 0;
+    position: absolute;
+    top: 495px;
+    left: 31px;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    width: 608px;
+    height: 98px;
+  }
+  .about,
+  .home {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+    z-index: 2;
+  }
+  .about {
+    min-width: 37px;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 40px 0 39px;
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-group,
+  .white-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .white-line {
+    align-self: stretch;
+    height: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    width: 116px;
+  }
+  .strands1 {
+    position: relative;
+    display: inline-block;
+    min-width: 47px;
+    z-index: 2;
+  }
+  .strands,
+  .strands-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .strands {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .strands-wrapper {
+    width: 359px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-19xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .contact-us {
+    position: relative;
+    display: inline-block;
+    min-width: 66px;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .contact-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-19xl) 24px 0 0;
+  }
+  .ollcf {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 78px;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .school-info {
+    width: 732px;
+    background-color: var(--color-cornsilk);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-12xl) 54px 13px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 24px;
+    color: var(--color-tan);
+  }
+  .frame-parent,
+  .we-believe-in-the-saying-you-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-tan);
+  }
+  .frame-parent {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xl);
+    box-sizing: border-box;
+    gap: 120px;
+    max-width: 100%;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-cornsilk);
+    font-family: var(--font-inter);
+  }
+  .we-believe-in-the-saying-you-b {
+    width: 840px;
+    height: 1168px;
+  }
+  .blank-line,
+  .our-lady-of {
+    margin: 0;
+  }
+  .httpsollcfeduph1 {
+    text-decoration: underline;
+  }
+  .httpsollcfeduph {
+    color: inherit;
+  }
+  .for-more-information-about-our {
+    margin: 0;
+  }
+  .our-lady-of-container {
+    margin: 0;
+    position: absolute;
+    top: 216.5px;
+    left: 71.5px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    width: 612px;
+    max-height: 616px;
+    word-break: break-word;
+    z-index: 1;
+  }
+  .header {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 720px;
+    width: 720px;
+    text-align: left;
+    font-size: 36px;
+    color: #000;
+  }
+  .about-page {
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background-color: var(--color-cornsilk);
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 48px;
+    color: var(--color-tan);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1050px) {
+    .strands {
+      display: none;
+    }
+    .strands-wrapper {
+      width: 0;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .about-senior-high {
+      font-size: 38px;
+    }
+    .our-lady-of-container {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .frame-parent {
+      gap: 60px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .about-senior-high {
+      font-size: var(--font-size-10xl);
+    }
+    .frame-parent {
+      gap: 30px;
+    }
+    .our-lady-of-container {
+      font-size: 22px;
+    }
+  }
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-10xl: 29px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-cornsilk: #fff7dc;
+    --color-tan: #c1b17b;
+  
+    /* Paddings */
+    --padding-12xl: 31px;
+    --padding-19xl: 38px;
+  }
